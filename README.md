@@ -4,7 +4,7 @@ Make a potluck invitation and download a calendar file your guests can open in A
 
 [Make a postcard](https://cjimenz.github.io/potluck-postcard/)
 
-The demo grew out of calendar-export helpers I wrote for a personal RSVP app in July 2026. The editor, preview and standalone exporter were added for this release. The example party is fictional.
+The demo grew out of calendar-export helpers I wrote for [Christian’s Kanye Asada](https://christian-s-kanye-asada.vercel.app/), a personal RSVP app I built in July 2026. The Asada archive shows the original potluck menu with fictional guest aliases. The editor, preview and standalone exporter were added for this release. The example party is fictional.
 
 ## Run locally
 
