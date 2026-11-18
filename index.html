@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Potluck Postcard</title><link rel="stylesheet" href="style.css">
+<main><header><span aria-hidden="true">✳</span> Potluck Postcard</header>
+<h1>Make an invitation</h1><p>Edit the postcard, then download a calendar invite to share.</p>
+<div class="layout"><form id="editor"><label>Party name<input id="title" maxlength="100" required value="The Sunday Supper Club"></label>
+<label>Where<input id="place" maxlength="160" value="The garden pavilion"></label>
+<div class="times"><label>Starts<input type="datetime-local" id="start" required></label><label>Ends<input type="datetime-local" id="end" required></label></div>
+<small id="zone"></small><label>A note for guests<textarea id="note" rows="3" maxlength="600">Bring a dish to share and a story about who taught you to make it.</textarea></label>
+<button type="submit">Download calendar invite ↓</button><output id="status" aria-live="polite"></output></form>
+<article aria-label="Postcard preview"><div class="band" aria-hidden="true"></div><div class="paper"><div class="stamp" aria-hidden="true">✳</div>
+<p id="when"></p><h2 id="headline"></h2><strong id="where"></strong><hr><p id="message"></p></div><div class="band" aria-hidden="true"></div></article></div></main>
+<script type="module" src="app.mjs"></script></html>
